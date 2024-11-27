@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Rafael Lyra Costa</title>
+    <link rel="stylesheet" href="styleb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+</head>
+<body>
+    <header>
+        <div class="profile-info">
+            <figure class="profile-img">
+                <img src="https://avatars.githubusercontent.com/u/188530600?s=400&u=d53d83cf6b7de07e8662d48527962979bd217669&v=4" alt="Rafael Lyra Costa">
+            </figure>
+
+            <div class="profile-text">
+                <h1>Rafael Lyra Costa</h1>
+                <p>Estudante de Ciência da Computação, CESAR School</p>
+            </div>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.instagram.com/raf_lyra/profilecard/?igsh=MTVtMDI2amxnM285cA==" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rafael-lyra-costa/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Rafaellc-DEV" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:rafaelcosta.2600@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>            
+            <a href="https://wa.me/5581992172103" target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </header>
+    
+    <main>
+        <section class="about-me">
+            <h1>Sobre Mim</h1>
+            <p>Sou estudante de Ciência da Computação na CESAR School, apaixonado por tecnologia e desenvolvimento de software. 
+                Me identifico nas áreas de Cibersegurança, Machine Learning, Automação e Controle de Qualidade. 
+                Meu propósito é trazer maior eficiência, segurança e inovação ao que faço. Para isso, estou aprimorando constantemente minhas habilidades em automação, controle de qualidade e tecnologia focado em segurança, enquanto busco explorar novas fronteiras.
+            </p>
+        </section>
+
+        <section class="skills">
+            <div class="skills-left">
+                <h2>Habilidades</h2>
+                <p><span>Python</span> <span class="stars">★★☆☆☆</span></p>
+                <p><span>HTML</span> <span class="stars">★★☆☆☆</span></p>
+                <p><span>Arduino</span> <span class="stars">★★★☆☆</span></p>
+            </div>
+            <div class="skills-right">
+                <h2>Competências</h2>
+                <p><span>Soft Skills</span> <span class="stars">★★★☆☆</span></p>
+                <p><span>Ética</span> <span class="stars">★★★★☆</span></p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Meus Projetos</h2>
+            <ul>
+                <li>
+                    <h3>Projeto 1: Sistema de Gerenciamento de Treinos</h3>
+                    <button class="popup-btn" data-popup="popup1">Saiba mais</button>
+                </li>
+                <li>
+                    <h3>Projeto 2: Quiz interativo com Arduino</h3>
+                    <button class="popup-btn" data-popup="popup2">Saiba mais</button>
+                </li>
+                <li>
+                    <h3>Projeto 3: Carro de controle remoto com Arduino (bluetooth)</h3>
+                    <button class="popup-btn" data-popup="popup3">Saiba mais</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <div class="popup" id="popup1">
+        <div class="popup-content">
+            <span class="popup-close" data-popup="popup1">&times;</span>
+            <h2 class="popup-title">Projeto 1: Sistema de Gerenciamento de Treinos</h2>
+            <div class="popup-body">
+                <div class="popup-description">
+                    <p>Esse projeto visa gerenciar treinos e competições de um atleta. O sistema armazena informações sobre as corridas realizadas, analisa o desempenho e sugere novos treinos com base no histórico do usuário e mostra a velocidade média dos treinos.</p>
+                </div>
+                <img src="https://github.com/Rafaellc-DEV/repositorio-imagens/blob/main/terminal-projeto-python.PNG?raw=true" alt="Imagem do Projeto 1">
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup2">
+        <div class="popup-content">
+            <span class="popup-close" data-popup="popup2">&times;</span>
+            <h2 class="popup-title">Projeto 2: Quiz Interativo com Arduino</h2>
+            <div class="popup-body">
+                <div class="popup-description">
+                    <p>Este projeto utiliza Arduino para criar um quiz interativo, onde dois jogadores competem para responder perguntas. A resposta correta acende um LED e a pontuação é exibida na tela LCD TFT.</p>
+                </div>
+                <img src="https://github.com/Rafaellc-DEV/repositorio-imagens/blob/main/portotipo-projeto-capybaquiz.png?raw=true" alt="Imagem do Projeto 2">
+            </div>
+        </div>
+    </div>
+
+     <div class="popup" id="popup3">
+        <div class="popup-content">
+            <span class="popup-close" data-popup="popup3">&times;</span>
+            <h2 class="popup-title">Projeto 3: Carro de controle remoto com Arduino (bluetooth)</h2>
+            <div class="popup-body">
+                <div class="popup-description">
+                    <p>Este projeto foi desenvolvido para controlar um carro de controle remoto utilizando um Arduino. A comunicação entre o Arduino e o celular é feita através de um módulo Bluetooth, permitindo o pareamento com o aplicativo Bluetooth RC Controller. 
+                        O objetivo inicial foi criar um sistema básico de controle remoto, com a intenção de, no futuro, implementar funcionalidades baseadas em machine learning, trazendo mais inteligência e automação para o controle do carro.</p>
+                </div>
+                <img src="https://github.com/Rafaellc-DEV/repositorio-imagens/blob/main/foto-carro-arduino.png?raw=true" alt="Imagem do Projeto 3">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const popups = document.querySelectorAll('.popup');
+        const popupBtns = document.querySelectorAll('.popup-btn');
+        const popupCloses = document.querySelectorAll('.popup-close');
+
+        popupBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const popupId = btn.getAttribute('data-popup');
+                document.getElementById(popupId).style.display = 'flex';
+            });
+        });
+
+        popupCloses.forEach(close => {
+            close.addEventListener('click', () => {
+                const popupId = close.getAttribute('data-popup');
+                document.getElementById(popupId).style.display = 'none';
+            });
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target.classList.contains('popup')) {
+                e.target.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
