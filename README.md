@@ -12,3 +12,8 @@ Este é o meu portfólio pessoal, onde mostro alguns dos projetos que desenvolvi
 ## Contato
 
 Você pode entrar em contato comigo através do meu email: rafaelcosta.2600@gmail.com.
+
+## Autor
+
+Rafael Lyra Costa  
+© 2024. Todos os direitos reservados.
